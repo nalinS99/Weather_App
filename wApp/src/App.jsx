@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-import './App.css'; // Import custom CSS
+import './App.css'; 
 
 import clearDayVideo from './assets/BG/clear-day.mp4';
 import clearNightVideo from './assets/BG/clear-night.mp4';
@@ -63,12 +63,7 @@ function App() {
           const icon = response.data.weather[0].icon;
           const backgroundVideo = iconToBackgroundVideo(icon);
           setBgVideo(backgroundVideo);
-          console.log("Icon:", icon);
-          console.log("Background Video URL:", backgroundVideo);
         })
-        .catch((error) => {
-          console.error('Error fetching the weather data:', error);
-        });
       setLocation('');
     }
   };
@@ -78,7 +73,6 @@ function App() {
       {bgVideo && (
         <video key={bgVideo} autoPlay loop muted className="background-video">
           <source src={bgVideo} type="video/mp4" />
-          Your browser does not support the video tag.
         </video>
       )}
       <div className="search-container">
