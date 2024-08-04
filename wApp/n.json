@@ -1,0 +1,47 @@
+{
+    "coord": {
+        "lon": 80.6356,
+        "lat": 7.2955
+    },
+    "weather": [
+        {
+            "id": 500,
+            "main": "Rain",
+            "description": "light rain",
+            "icon": "10d"
+        }
+    ],
+    "base": "stations",
+    "main": {
+        "temp": 299,
+        "feels_like": 299.68,
+        "temp_min": 299,
+        "temp_max": 299,
+        "pressure": 1009,
+        "humidity": 78,
+        "sea_level": 1009,
+        "grnd_level": 952
+    },
+    "visibility": 10000,
+    "wind": {
+        "speed": 4.75,
+        "deg": 255,
+        "gust": 12.32
+    },
+    "rain": {
+        "1h": 0.43
+    },
+    "clouds": {
+        "all": 99
+    },
+    "dt": 1721115076,
+    "sys": {
+        "country": "LK",
+        "sunrise": 1721089695,
+        "sunset": 1721134703
+    },
+    "timezone": 19800,
+    "id": 1241622,
+    "name": "Kandy",
+    "cod": 200
+}
